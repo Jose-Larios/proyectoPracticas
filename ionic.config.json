@@ -1,0 +1,7 @@
+{
+  "name": "Proyecto-Practicas-Profecionales",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
