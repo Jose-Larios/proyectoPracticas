@@ -15,7 +15,9 @@
       </ion-thumbnail>
       <ion-label>
         <h2>{{ producto.nombre }}</h2>
-        <p>${{ producto.precio}}</p>
+        <p>Precio: ${{ producto.precio }}</p>
+        <p>IVA: ${{ producto.iva }}</p>
+        <p>Precio total: ${{ producto.totalPrecio }}</p>
       </ion-label>
     </ion-item>
   </ion-list>
